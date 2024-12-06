@@ -1,0 +1,164 @@
+
+*{
+    position:static;
+    cursor: default;
+    background-image: linear-gradient(violet,PURPLE);
+
+
+}
+
+.head{
+    height: 390px;
+    background-image: linear-gradient(violet,PURPLE);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:-webkit-sticky;
+    top:0;
+    border-color: black; 
+    border: 1cm;
+     margin: bottom 100px;
+     cursor: default;
+     margin-top: 0;
+     color:rgb(255, 230, 0);
+   
+}
+.head .line{
+    background-image: linear-gradient(violet,PURPLE);
+    background-color: black;
+    width:100%;
+    height:5px;
+}
+
+
+.head span{
+    color: navy;
+    
+    
+    
+}
+
+.head h1{
+    padding-left: 25px;
+    background-image:linear-gradient() ;
+}
+.content button{
+    margin-bottom: 20px; 
+    border-color:black;
+    background-image:linear-gradient(to left,rgb(253, 3, 45) ,purple);
+    border-radius:2mm ;
+    margin-left: 35px;
+}
+
+
+.head .search{
+    margin-top: 50px;
+    visibility:visible;
+    
+}
+
+.head .content{
+    height: 100px;
+    background-image: linear-gradient(violet,PURPLE);
+    border-radius:1cm;
+}
+.search{
+    display: block;
+    visibility:visible;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 2mm;
+    border-color: blue;
+
+
+}
+.search button{
+    margin-left:3;
+    border-radius: 5mm;
+    border-color:black;
+    background-image: linear-gradient(to right ,violet,blue);
+    
+}
+
+
+
+.search input {
+    margin-left: 125px;
+    border-color: rgb(41, 41, 211);
+    background-color:black;
+    color: aliceblue;
+}
+/* stylesheet.css */
+
+html {
+    background-image: url('img/images.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.head form {
+    margin-left: 0%;
+}
+
+.head h1 {
+    font-size: xxx-large;
+}
+
+.head h1 span {
+    font-weight: bold;
+}
+
+.div-img {
+    height: 150px;
+    padding-left: 90%;
+    display: inline;
+}
+
+.div-content {
+    background-color: rgb(0, 0, 0);
+    height: 0.5mm;
+}
+
+#image {
+    padding-left: 60%;
+    height: 15cm;
+    width: max-content;
+}
+
+.content {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content button {
+    margin-top: 20px;
+    height: 30px;
+    font-weight: bold;
+}
+
+.content a button {
+    margin-left: 48.7%;
+    height: 30px;
+}
+
+.search {
+    visibility: hidden;
+}
+
+#inp {
+    margin-left: 49%;
+}
+
+#f {
+    color: black;
+    visibility: hidden;
+    background-color: white;
+    margin-top: 8cm;
+}
+
+#out {
+    padding: 10px;
+}
